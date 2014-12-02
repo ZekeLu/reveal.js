@@ -40,11 +40,7 @@ body {
  * HEADERS
  *********************************************/
 .reveal h1,
-.reveal h2,
-.reveal h3,
-.reveal h4,
-.reveal h5,
-.reveal h6 {
+.reveal h2 {
   margin: 0 0 20px 0;
   color: #eeeeee;
   font-family: "League Gothic", Impact, sans-serif;
@@ -146,3 +142,11 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #13daec; }
+
+/*********************************************
+ * EMPHASIZE
+ *********************************************/
+.reveal strong{
+  text-transform: uppercase;
+  color: khaki;
+}
